@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/itnation/test.pembatamang.com.np/
+    - /bin/cp index.html $DEPLOYPATH
